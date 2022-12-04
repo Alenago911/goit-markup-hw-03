@@ -1,0 +1,354 @@
+:root{
+    --NAVYBLUE: #2E2F42;
+    --white: #FFFFFF;
+    --iris: #4D5AE5;
+    --slate: #434455;
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
+    --bly: #404BBF;
+    }
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.subject{
+background: var(--white);
+}
+
+.logo{
+font-family: 'Raleway', sans-serif; 
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+color: var(--iris);
+text-decoration: none;
+}
+
+.logo-link{
+font-family: 'Raleway', sans-serif; 
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+color: var(--NAVYBLUE);
+text-decoration: none;
+}
+
+.list{
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: var(--NAVYBLUE);
+}
+
+.list-studio{
+text-decoration: none;
+list-style-type: none;
+}
+
+.list-studio:hover,
+.list-studio:focus{
+color: var(--slate);
+}
+
+.list-studio:active{
+color: var(--iris);
+}
+
+.list-portfolio{
+text-decoration: none;  
+}
+
+.list-portfolio:hover,
+.list-portfolio:focus{
+color: var(--slate);
+}
+
+.list-portfolio:active{
+color: var(--iris);
+}
+
+.list-contacts{
+text-decoration: none;  
+}
+
+.list-contacts:hover,
+.list-contacts:focus{
+color: var(--slate);
+}
+
+.list-contacts:active{
+color: var(--iris);
+}
+
+.mail{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate);
+text-decoration: none;
+}
+
+.mail:hover,
+.mail:focus{
+color: var(--slate);
+}
+
+.tel{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate);
+text-decoration: none;
+}
+
+.tel:hover,
+.tel:focus{
+color: var(--slate);
+}
+
+.heroy{
+background: var(--NAVYBLUE);
+}
+
+.title{
+background: var(--NAVYBLUE);
+font-weight: 600;
+font-size: 56px;
+line-height: 1;
+color: var(--white);
+}
+
+.button{
+background: var(--iris);
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.2;
+color: var(--white);
+cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+color: var(--iris);
+}
+
+.button:active{
+color: var(--bly);
+}
+
+.item{
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+color: var(--NAVYBLUE);
+}
+
+.items{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate);
+}
+
+.work{
+font-weight: 600;
+font-size: 36px;
+line-height: 1.1;
+color: var(--NAVYBLUE);
+}
+
+.we{
+background: var(--CLOUD);
+}
+
+.comanda{
+font-weight: 600;
+font-size: 36px;
+line-height: 1.1;
+color: var(--NAVYBLUE);  
+}
+
+.comanda-we{
+background: var(--white);
+}
+
+.name{
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+color: var(--NAVYBLUE);
+}
+
+.slogan{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate); 
+}
+
+.footer{
+background: var(--NAVYBLUE);
+}
+
+.logo-links{
+font-family: 'Raleway', sans-serif; 
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.2;
+color: var(--CLOUD);
+text-decoration: none; 
+}
+
+.text{
+font-size: 16px;
+line-height: 1.5;
+color: var(--CORNFLOWER);   
+}
+
+
+.body{
+font-family: 'Roboto', sans-serif; 
+}
+
+.header-list{
+background: var(--white);
+font-style: normal;
+}
+
+.logos{
+font-family: 'Raleway', sans-serif; 
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+color: var(--iris);
+text-decoration: none;
+}
+
+.logo-type{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+color: var(--NAVYBLUE);
+text-decoration: none;
+}
+
+.link{
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: var(--NAVYBLUE);
+text-decoration: none;
+}
+
+.link:hover,
+.link:focus{
+color: var(--slate);
+}
+
+.link:active{
+color: var(--iris);
+}
+
+.e-mail{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate);
+text-decoration: none;
+}
+
+.e-mail:hover,
+.e-mail:focus{
+color: var(--slate);
+}
+
+.phone{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate);  
+text-decoration: none;
+}
+
+.phone:hover,
+.phone:focus{
+color: var(--slate);
+}
+
+.btn-all{
+background: var(--iris);
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: var(--white);
+cursor: pointer;
+}
+
+.btn-all:hover,
+.btn-all:focus{
+color: var(--iris);
+}
+
+.btn-all:active{
+color: var(--bly);
+}
+
+.btn{
+background: var(--CLOUD);
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: var(--iris);
+cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+color: var(--iris);
+}
+
+.btn:active{
+color: var(--bly);
+}
+
+.content{
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+color: var(--NAVYBLUE);
+}
+
+.text-item{
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate);
+}
+
+.footer-list{
+background: var(--NAVYBLUE);
+}
+
+.logo-web{
+font-family: 'Raleway', sans-serif; 
+font-weight: 800;
+font-size: 18px;
+line-height: 1.2;
+color: var(--iris);
+text-decoration: none;
+}
+
+.logo-studio{
+font-family: 'Raleway', sans-serif; 
+font-weight: 800;
+font-size: 18px;
+line-height: 1.2;
+color: var(--CLOUD);
+text-decoration: none;
+}
+
+.logo-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--CORNFLOWER); 
+}
