@@ -357,9 +357,73 @@ line-height: 1.5;
 color: var(--CORNFLOWER); 
 }
 
+/* one page */ 
+
 .section-page{
 padding-top: 96px;
 padding-bottom: 120px;
+}
+
+.list{
+    display: flex;
+    margin-left: 77px; 
+}
+
+.header-list_items{
+    margin-right: 40px; 
+    display: block; 
+    padding-top: 24px;
+    padding-bottom: 24px;   
+}
+
+.header-list_items:last-child{
+margin-right: 0;
+}
+
+.subject-list{
+    display: flex;
+    margin-left: auto;  
+}
+
+.subject-list .subject-list_item + .subject-list_item {
+    margin-left: 40px;
+}
+
+.container-main_navi{
+    display: flex;
+    align-items: center; 
+}
+
+/* two page */
+
+.header-list{
+display: flex;
+margin-left: 77px;
+}
+
+.heder-list_item{
+  margin-right: 40px; 
+  display: block; 
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.heder-list_item:last-child{
+margin-right: 0;
+}
+
+.header-listt{
+    display: flex;
+    margin-left: auto;
+}
+
+.header-listt .heder-listt_item + .heder-listt_item {
+margin-left: 40px;
+} 
+
+.container-main_nav{
+display: flex;
+align-items: center;
 }
 
 .container{
@@ -399,4 +463,12 @@ flex-basis: calc ( (100% - 2 * 24px) / 3);
 
 .portfolio-cards_box{
 padding: 32px 16px;
+}
+
+.footer-logo_box{
+    justify-content: flex-start;
+}
+
+.logo-text{
+margin-top: 16px;
 }
