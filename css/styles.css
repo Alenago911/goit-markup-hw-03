@@ -16,8 +16,6 @@ font-family: 'Roboto', sans-serif;
 background: var(--white);
 }
 
-
-
 .logo{
 font-family: 'Raleway', sans-serif; 
 font-weight: 800;
@@ -108,7 +106,7 @@ text-decoration: none;
 
 .tel:hover,
 .tel:focus{
-color: var(--slate);
+color: var(--iris);
 }
 
 .hero{
@@ -129,11 +127,11 @@ cursor: pointer;
 }
 
 .button-text{
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.2;
-    color: var(--white);  
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.2;
+color: var(--white);  
 }
 
 
@@ -270,7 +268,7 @@ text-decoration: none;
 
 .e-mail:hover,
 .e-mail:focus{
-color: var(--slate);
+color: var(--iris);
 }
 
 .phone{
@@ -282,7 +280,7 @@ text-decoration: none;
 
 .phone:hover,
 .phone:focus{
-color: var(--slate);
+color: var(--iris);
 }
 
 .portfolio-all{
@@ -302,7 +300,8 @@ cursor: pointer;
 
 .portfolio-btn-all:hover,
 .portfolio-btn-all:focus{
-color: var(--iris);
+color: var(--white);   
+background-color: var(--iris);
 }
 
 .portfolio-btn-all:active{
@@ -321,7 +320,8 @@ cursor: pointer;
 
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-color: var(--iris);
+ color: var(--white);   
+ background-color: var(--iris);
 }
 
 .portfolio-btn:active{
@@ -434,6 +434,9 @@ padding-top: 24px;
 padding-bottom: 24px;
 }
 
+.subject{
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 .subject-list{
 display: flex;
@@ -594,6 +597,10 @@ padding-top: 24px;
 padding-bottom: 24px;
 }
 
+.heder-listt_one{
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .header-list{
 display: flex;
 margin-left: 77px;
@@ -624,14 +631,13 @@ display: block;
 padding-top: 24px;
 padding-bottom: 24px;
 }
-    
+ 
 .phone{
 display: block; 
 padding-top: 24px;
 padding-bottom: 24px; 
 }
     
-
 .container-main_nav{
 display: flex;
 width: 1158px;
@@ -699,8 +705,14 @@ height: auto;
 
 .portfolio-cards_box{
 padding: 32px 16px;
-border: 0.5px var(--CLOUD);
+border: 0.5px solid #F4F4FD;
 border-top: 0;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-cards_box:hover,
+.portfolio-cards_box:focus{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);  
 }
 
 .content{
